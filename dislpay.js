@@ -3,7 +3,7 @@ function displayCards(){
     const Table = document.getElementById("pets");
     for(let i=0;i<petSalon.pets.lenght;i++){
         let pet = petSalon.pets[i];
-        card+=`
+        card+=`;
             <div class="pet">
             <h5>Name: ${pet.nameP}</h5>
             <p>Age: ${pet.ageP}</p>

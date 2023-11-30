@@ -13,11 +13,11 @@ let counter = 0;
 //object constructon (special function)
 function Pet(name,age,gender,service,breed,color){
     this.nameP=name;
-    this.agep=age;
-    this.genderp=gender;
+    this.AgeP=age;
+    this.genderP=gender;
     this.servicep=service;
     this.breedp=breed;
-    this.breedp=color;
+    this.ColorP=color;
     this.id=counter++;
 }
 
@@ -78,8 +78,8 @@ function deletePet(petID){
 
 function init(){
     //creating objects using constructor
-    let scooby = new Pet("Scooby", 60, "Male", "Grooming", "Dane",);
-    let scrappy = new Pet("Scrappy", 50, "Male", "Grooming","Dane");
+    let scooby = new Pet("Scooby", 60, "Male", "Grooming", "Dane","Black");
+    let scrappy = new Pet("Scrappy", 50, "Male", "Grooming","Dane","Brown");
     petSalon.pets.push(scooby,scrappy); //pushing the elements on th array
     // displayCards();
     displayTable();
